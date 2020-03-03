@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class MatrimonyRegister {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Eclipse Installation\\workspace-tomcat\\testng-basics\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -27,9 +27,10 @@ public class MatrimonyRegister {
 		
 		select = new Select(driver.findElement(By.id("religion")));
 		select.selectByVisibleText("Hindu");
-		
-//		select = new Select(driver.findElement(By.id("caste")));
-//		select.selectByVisibleText("Padmasali");
+	
+		Thread.sleep(500);
+		select = new Select(driver.findElement(By.id("caste")));
+		select.selectByVisibleText("Padmasali");
 		
 		select = new Select(driver.findElement(By.id("countryId")));
 		select.selectByVisibleText("+91, India");
