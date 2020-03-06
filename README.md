@@ -1,2 +1,12 @@
 # SeleniumTesting
- 
+- [x] Simple Web Page Loading
+- [x] Different Selectors for Finding Elements
+- [x] **Select** Class to handle Dropdowns
+- [x] **Alert** Class to handle JavaScript Alerts/popus
+- [x] Handling File Upload
+- [x] Custom Xpath Creation
+- [x] **Actions** Class to handling Mouse Movements
+- [x] **Actions** Class for Drag and Drop
+- [x] Browser Navigation methods
+- [] ImplicitlyWait
+- [] Explicitly Wait
