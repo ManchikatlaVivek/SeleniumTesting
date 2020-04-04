@@ -25,6 +25,7 @@ public class HandleJavaScriptAlert {
 		System.out.println(alert.getText());
 
 		alert.accept();
+//		alert.dismiss();
 	}
 
 }

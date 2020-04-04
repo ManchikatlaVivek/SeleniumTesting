@@ -1,4 +1,4 @@
-package io.vlabs.selenium.project.java;
+package io.vlabs.selenium.practise;
 
 import java.io.FileInputStream;
 import java.io.IOException;
